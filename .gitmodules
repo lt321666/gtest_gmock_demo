@@ -1,0 +1,4 @@
+﻿[submodule "3rdparty/libIPCProtocol"]
+	path = 3rdparty/libIPCProtocol
+	url = http://192.168.103.7:10082/mky/libIPCProtocol.git
+	branch = palmVein_V1.X

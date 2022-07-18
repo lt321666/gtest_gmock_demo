@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="1" disabled="0" errors="0" timestamp="2022-07-15T09:47:07" time="0.001" name="AllTests">
+  <testsuite name="ConfigureTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="addItem" status="run" time="0" classname="ConfigureTest" />
+  </testsuite>
+  <testsuite name="SoundexEncoding" tests="11" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="ReplacesConsonantsWithAppropriateDigits" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="PadsWithZerosToEnsureThreeDigits" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="IgnoresNonAlphabetics" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="ReplacesMultipConsonantsWithDigits" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="LimitsLengthToFourCharacters" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="IgnoresVowelLikeLetters" status="run" time="0.001" classname="SoundexEncoding" />
+    <testcase name="CombinesDuplicateEncodings" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="UppercasesFirstLetter" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="IgnoresCaseWhenEncodingConsonants" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="CombinesDuplicateCodesWhen2ndLetterDuplicates1st" status="run" time="0" classname="SoundexEncoding" />
+    <testcase name="DoesNotCombineDuplicateEncodingsSeparatedByVowels" status="run" time="0" classname="SoundexEncoding" />
+  </testsuite>
+  <testsuite name="calculate" tests="1" failures="1" disabled="0" errors="0" time="0">
+    <testcase name="test_add_result" status="run" time="0" classname="calculate">
+      <failure message="/home/userdata/laitao/sample_project/tests/test_func/SoundexTest.cpp:80&#x0A;Expected equality of these values:&#x0A;  5&#x0A;  add(2,5)&#x0A;    Which is: 7" type=""><![CDATA[/home/userdata/laitao/sample_project/tests/test_func/SoundexTest.cpp:80
+Expected equality of these values:
+  5
+  add(2,5)
+    Which is: 7]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
